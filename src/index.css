@@ -11,3 +11,10 @@
     transform: rotateY(20deg);
   }
   
+.custom-gradient {
+  background: linear-gradient(90deg, #5E11FF 20%, #F87516 80%);
+}
+
+.section-page {
+  background: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+}

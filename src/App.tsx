@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Homepage from "./components/Homepage";
 import Rating from "./components/Rating";
+import SectionPage from "./components/SectionPage";
 
 function App() {
      return (
@@ -13,6 +14,7 @@ function App() {
 
                     <Rating/>
                     </div>
+                    <SectionPage/>
                </div>
           </div>
      );
