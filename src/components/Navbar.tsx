@@ -1,7 +1,7 @@
 const Navbar = () => {
      return (
           <nav>
-               <div className="flex justify-between items-center h-[54px] bg-[#262626] px-[20px]">
+               <div className="flex justify-between items-center h-[54px] bg-[#262626] px-[20px] fixed z-50 w-full">
                     <div>
                          <img
                               src="https://public-assets.envato-static.com/assets/logos/envato_market-dde916a48af7413e54aa058fe7ae6856752fca799da4bec355f00aea904bfa19.svg"
