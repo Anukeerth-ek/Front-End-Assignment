@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Homepage from "./components/Homepage";
 import Rating from "./components/Rating";
 import SectionPage from "./components/SectionPage";
+import Browers from "./components/Browers";
+import Footer from "./components/Footer";
 
 function App() {
      return (
@@ -15,6 +17,8 @@ function App() {
                     <Rating/>
                     </div>
                     <SectionPage/>
+                    <Browers/>
+                    <Footer/>
                </div>
           </div>
      );
