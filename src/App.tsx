@@ -4,7 +4,9 @@ import Homepage from "./components/Homepage";
 import Rating from "./components/Rating";
 import SectionPage from "./components/SectionPage";
 import Browers from "./components/Browers";
+import Article from "./components/Article";
 import Footer from "./components/Footer";
+
 
 function App() {
      return (
@@ -18,8 +20,11 @@ function App() {
                     </div>
                     <SectionPage/>
                     <Browers/>
-                    <Footer/>
+                    <Article/>
                </div>
+                 <div>
+                 <Footer/>
+                 </div>
           </div>
      );
 }

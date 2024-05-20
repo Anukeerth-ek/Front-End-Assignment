@@ -1,31 +1,17 @@
-import { footerItems } from "../utils/Data";
+
 
 const Footer = () => {
-     return (
-          <div className="py-[100px]">
-               <div>
-                    <h2 className="text-[40px] text-[#EEE5FF] text-center">
-                         An All-Round Plugin With<br></br> Powerful Features
-                    </h2>
-                    <p className="text-[#EEE5FFBD] text-[18px] text-center">
-                         Whether you're a seasoned web designer or just starting out, Motion Art for <br></br>Elementor
-                         seamlessly integrates with the Elementor platform, providing you<br></br> with a seamless and
-                         intuitive experience.
-                    </p>
-               </div>
-               <div className="flex">
-                    {footerItems.map((item, index) => {
-                         return (
-                              <div key={index}>
-                                   <img src={item.image}/>
-                                   <h2>{item.title}</h2>
-                                   <p>{item.content}</p>
-                              </div>
-                         );
-                    })}
-               </div>
-          </div>
-     );
-};
+  return (
+    <div>
+        <div className="flex justify-between bg-gradient-to-r from-orange-500 to-purple-700  text-[14px]  pt-[10px] px-[120px]">
+        <p className="text-[#EEE5FFB8] p-[10px] ">© 2023 Copywrite. All rights reserved by QodeMatrix</p>
+        <div className="p-[10px]">
+        <span className="text-[#EEE5FFB8] ">Documentation</span>
+        <span className="text-[#EEE5FFB8] ml-[30px]">Support</span>
+        </div>
+    </div>
+    </div>
+  )
+}
 
-export default Footer;
+export default Footer

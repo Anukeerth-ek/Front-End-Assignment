@@ -8,7 +8,7 @@ const Navbar = () => {
                               className="bg-black-600 w-[152px] h-[18px] bg-[length:152px_18px]"
                          />
                     </div>
-                    <button className="bg-[#82B440] text-white py-1 px-4 rounded-md text-[14px] ">Buy now</button>
+                    <button className="bg-[#82B440] text-white py-[5px] px-[20px] leading-6 rounded-md text-[14px] nav-btn ">Buy now</button>
                </div>
           </nav>
      );

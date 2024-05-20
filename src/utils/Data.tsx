@@ -31,14 +31,14 @@ export const ratingData: RatingItem[] = [
     }
 ];
 
-export interface footerData {
+export interface articleData {
     image: string,
     title: string,
     content: string
 
 }
 
-export const footerItems:footerData[] = [
+export const articleItems:articleData[] = [
     {
         image: imageOne,
         title: "Light Weight",

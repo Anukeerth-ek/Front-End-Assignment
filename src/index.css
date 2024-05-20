@@ -18,3 +18,8 @@
 .section-page {
   background: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
 }
+
+.nav-btn {
+  box-shadow: 0 2px 0 #6f9a37; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
