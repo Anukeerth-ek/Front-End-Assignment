@@ -1,3 +1,8 @@
-.homepage-main-content {
-  perspective: -100;
+html {
+     box-sizing: border-box;
+}
+
+.content {
+     padding-top: 54px;
+     overflow-y: hidden;
 }

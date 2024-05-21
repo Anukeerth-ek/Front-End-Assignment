@@ -1,0 +1,9 @@
+.customcontent {
+     padding-top: 54px;
+     height: calc(100vh - 54px);
+     overflow-x: auto;
+     background-color: #101119;
+     padding-left: 100px;
+     padding-right: 100px;
+     padding-top: 8px;
+}
